@@ -1,1 +1,4 @@
 workdir/**
+.ssh/*
+!.ssh/.gitinclude
+
