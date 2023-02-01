@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  stapler:
+    build:
+      context: container
+      dockerfile: ../container/Containerfile
+    working_dir: /mnt/stapler/workdir
+    volumes:
+      - type: bind
+        source: "${WORKDIR:-./}"
+        target: /mnt/stapler
