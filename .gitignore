@@ -1,5 +1,7 @@
 workdir/**
 .ssh/*
 root/.ssh
+root/.lesshst
+root/texmf/
 !.ssh/.gitinclude
 .bash_history
