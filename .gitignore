@@ -1,4 +1,5 @@
 workdir/**
 .ssh/*
+root/.ssh
 !.ssh/.gitinclude
-
+.bash_history

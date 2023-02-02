@@ -1,5 +1,7 @@
 # see https://github.com/comp211/comp211-container/blob/master/.bashrc
 
+hostdir="/mnt/stapler"
+
 # Install SSH keys
 # Copy SSH files to ~/.ssh from .ssh on host
 hostssh="${hostdir}/.ssh"

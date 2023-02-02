@@ -9,3 +9,6 @@ services:
       - type: bind
         source: "${WORKDIR:-./}"
         target: /mnt/stapler
+      - type: bind
+        source: "${WORKDIR:-./root}"
+        target: /root
