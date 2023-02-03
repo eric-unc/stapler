@@ -1,9 +1,7 @@
 FROM ubuntu
 
 RUN apt update
-#RUN apt install -y build-essential git rubber
-#RUN apt install -y build-essential git texlive-latex-extra
-RUN apt install -y build-essential git texlive
-#RUN tlmgr init-usertree
+RUN apt install -y build-essential git
+RUN apt install --no-install-recommends -y texlive-full rubber
 
 ENTRYPOINT ["bash"]

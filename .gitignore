@@ -1,5 +1,6 @@
 workdir/**
 .ssh/*
+root/.gitconfig
 root/.ssh
 root/.lesshst
 root/texmf/
